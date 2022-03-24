@@ -310,7 +310,7 @@ while b > 7:
       sleep(.1)
       tello.flip_right()
   a == 0
-  b == +1
+  b = +1
   sleep(.1)
 #land
 tello.move_down(122)
