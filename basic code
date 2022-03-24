@@ -69,6 +69,7 @@ vendor = requests.get('http://api.macvendors.com/' + addr).text
 print(addr, vendor)
 while b > 7:
   a = random.randint(1, 40)
+  print(a)
   if a == 1:
       tello.move_left(30)
       sleep(.1)
